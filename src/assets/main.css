@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: violet;
+    background: -webkit-linear-gradient(315deg, rgb(229, 255, 0), rgb(217, 0, 255));
+    background: -moz-linear-gradient(315deg, rgb(229, 255, 0), rgb(217, 0, 255));
+    background: linear-gradient(315deg, rgb(229, 255, 0), rgb(217, 0, 255));
+    min-height: 100vh;
+    
+}
+
+h1 {
+    font-family: 'Bitcount Prop Single';
+    color: rgb(18, 196, 196);
+    font-size: 60px;
+    margin-top: 0px;
+    position: relative;
+}
+
+#inp, #but1, #but2 {
+    font-family: 'Montserrat';
+    margin: 0 5px;
+}
+
+
+.mains {
+    text-align: center;
+}
