@@ -30,7 +30,7 @@
 <script>
     import Selector from './components/Selector.vue';
     import CryptoConvert from 'crypto-convert';
-    import Favs from './components/Favs.vue';
+    import Favs from './components/Favs.vue'; 
 
 
     const convert = new CryptoConvert();
