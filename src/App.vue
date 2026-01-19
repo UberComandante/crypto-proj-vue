@@ -84,10 +84,14 @@
                     this.result = convert.BTC.ERC20(this.number);
                 } else if(this.perem1 == 'BTC' && this.perem2 == 'ETH') {
                     this.result = convert.BTC.ETH(this.number);
-                } 
-                
-                else if(this.perem1 == 'USDT' && this.perem2 == 'BTC') {
+                } else if(this.perem1 == 'USDT' && this.perem2 == 'BTC') {
                     this.result = convert.USDT.BTC(this.number);
+                } else if(this.perem1 == 'USDT' && this.perem2 == 'TRC20') {
+                    this.result = convert.USDT.TRC20(this.number);
+                } else if(this.perem1 == 'USDT' && this.perem2 == 'ERC20') {
+                    this.result = convert.USDT.ERC20(this.number);
+                } else if(this.perem1 == 'USDT' && this.perem2 == 'ETH') {
+                    this.result = convert.USDT.ETH(this.number);
                 } 
                 // и т.д. else if для всех позиций
                 
